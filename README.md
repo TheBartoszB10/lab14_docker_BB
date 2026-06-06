@@ -17,4 +17,4 @@ Stan początkowy:<img width="819" height="197" alt="stan_przed" src="https://git
 
 Stan po utworzeniu bazy:<img width="783" height="234" alt="stan_po" src="https://github.com/user-attachments/assets/6ed7e61b-52b3-4a15-aebd-a26a77a3028e" />
 
-phpMyAdmin został dołączony do sieci backend, żeby mógł się połączyć z bazą danych.
+phpMyAdmin został dołączony do sieci backend, żeby mógł się połączyć z bazą danych. Dołączenie go do sieci `frontend` nie jest w przypadku połączenia przez `localhost` konieczne(dostęp bezpośrednio przez port 6001), lecz w przypadku "poważniejszym" należałoby phpMyAdmin do sieci `frontend` dołączyć, żeby móc wykorzystać nginx jako reverse proxy podczas dostępu.
