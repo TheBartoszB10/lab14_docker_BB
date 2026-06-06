@@ -50,6 +50,7 @@ services:
       - mysql
     networks:
       - backend
+      - frontend
 
 networks:
   backend:
